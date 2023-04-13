@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.3"
+  },
+  "name": "refer_n_earn_page",
+  "version": "1.0.0",
+  "description": "JS code for refer and earn page",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash457353564/refer_n_earn_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash457353564/refer_n_earn_page/issues"
+  },
+  "homepage": "https://github.com/akash457353564/refer_n_earn_page#readme"
+}
