@@ -3,8 +3,8 @@
     "parcel": "^2.8.3"
   },
   "name": "@no_code_js/refer_n_earn_page",
-  "version": "1.1.0",
-  "description": "Added fields and Tnc Modal",
+  "version": "1.2.0",
+  "description": "Fixed date selection",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {

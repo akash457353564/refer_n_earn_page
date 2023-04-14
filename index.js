@@ -18,9 +18,14 @@ const tnc_txt = document.querySelector('.tnc_txt')
 
 const submit_btn = document.querySelector('#submit_btn')
 
-event_date_field.addEventListener('focus', ()=>{
-    event_date_field.type = 'date'
-})
+// event_date_field.addEventListener('focus', ()=>{
+//     event_date_field.type = 'date'
+// })
+
+//import flatpickr from "flatpickr";
+
+flatpickr("#event_date", {dateFormat: "d/m/Y"});
+
 
 const remove_err = function(el_name, err_name){
     el_name.addEventListener('input', ()=>{
