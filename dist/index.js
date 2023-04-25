@@ -563,6 +563,7 @@ const referer_name_field = document.querySelector("#referer_name");
 const referer_num_field = document.querySelector("#referer_number");
 const event_date_field = document.querySelector("#event_date");
 const event_location = document.querySelector("#event_location");
+const source_field = document.querySelector("#source");
 const name_err = document.querySelector("#name_err");
 const num_err = document.querySelector("#num_err");
 const ref_name_err = document.querySelector("#ref_name_err");
@@ -576,6 +577,7 @@ const submit_btn = document.querySelector("#submit_btn");
 // })
 // import flatpickr from "flatpickr";
 //flatpickr("#event_date", {dateFormat: "d/m/Y"});
+source_field.value = document.URL;
 const remove_err = function(el_name, err_name) {
     el_name.addEventListener("input", ()=>{
         err_name.style.display = "none";
